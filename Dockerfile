@@ -1,4 +1,5 @@
 FROM centos:latest
+LABEL maintainer "Arnab Kumar Nandy <arnab.nandy1991@gmail.com>"
 RUN yum install epel-release -y
 RUN yum install gcc openssl-devel bzip2-devel wget curl make sqlite3-devel sqlite-devel -y
 WORKDIR /tmp/
