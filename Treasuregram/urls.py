@@ -22,3 +22,7 @@ urlpatterns = [
     # main_app URLs
     url(r'^', include('main_app.urls')),
 ]
+
+admin.site.site_header = "TreasureGram Admin Page"
+admin.site.site_title = "TreasureGram Admin Portal"
+admin.site.index_title = "Welcome to TreasureGram Admin Portal"
