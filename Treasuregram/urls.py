@@ -20,9 +20,9 @@ from django.conf.urls import include, url
 urlpatterns = [
     path('admin/', admin.site.urls),
     # main_app URLs
-    url(r'^', include('main_app.urls')),
+    url(r'^', include('Medicine.urls')),
 ]
 
-admin.site.site_header = "TreasureGram Admin Page"
-admin.site.site_title = "TreasureGram Admin Portal"
-admin.site.index_title = "Welcome to TreasureGram Admin Portal"
+admin.site.site_header = "Clinical Dasgboard Admin Page"
+admin.site.site_title = "Clinical Dasgboard Admin Portal"
+admin.site.index_title = "Welcome to Clinical Dasgboard Portal"
